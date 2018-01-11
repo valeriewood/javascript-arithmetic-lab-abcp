@@ -18,8 +18,7 @@ function  divide(a, b) {
   function inc(n, base) {
     var parsed = parseInt(n, base);
     if (isNaN(parsed)) { return 0 }
-  return parsed * 100;
-  n++;
+  return parsed n++;
   return n;
   
   function roughScale(x, base) {
