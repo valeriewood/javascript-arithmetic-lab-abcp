@@ -8,13 +8,9 @@ function subtract(a, b) {
   return (a - b);
 }
 
-  2)  subtract(a, b) subtracts b from a and returns the result:
-     ReferenceError: subtract is not defined
-      at Context.<anonymous> (test/index-test.js:13:3)
-
-  3)  multiply(a, b) multiplies two numbers and returns the result:
-     ReferenceError: multiply is not defined
-      at Context.<anonymous> (test/index-test.js:17:3)
+function multiply(a, b) {
+  return (a * b);
+}
 
   4)  divide(a, b) divides a by b and returns the result:
      ReferenceError: divide is not defined
