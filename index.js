@@ -15,8 +15,21 @@ function  divide(a, b) {
   a /= b;
 }
 
-  inc(n) n++;
+  function inc(n, base) {
+     n++;
   return n;
+  
+  function roughScale(x, base) {
+  var parsed = parseInt(x, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
+}
+
+console.log(roughScale(' 0xF', 16));
+// expected output: 1500
+
+console.log(roughScale('321', 2));
+// expected output: 0
 
   6)  dec(n) decrements n and returns the result:
      ReferenceError: dec is not defined
