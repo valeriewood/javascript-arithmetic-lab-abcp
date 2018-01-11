@@ -41,9 +41,7 @@ console.log(roughScale('321', 2));
 
 preserveDecimal(n);
 parseFloat('n');
-returns the parsed number:
-     ReferenceError: preserveDecimal is not defined
-      at Context.<anonymous> (test/index-test.js:48:5)
-
+return preserveDecimal;
+     
   preserveDecimal(n) 
   return NaN;
