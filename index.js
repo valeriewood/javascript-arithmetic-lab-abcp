@@ -33,10 +33,9 @@ console.log(roughScale(' 0xF', 16));
 console.log(roughScale('321', 2));
 // expected output: 0
 
-  6)  dec(n) decrements n and returns the result:
-     ReferenceError: dec is not defined
-      at Context.<anonymous> (test/index-test.js:29:3)
-
+  dec(n);
+  return n--;
+ 
   7) makeInt(n) parses n as an integer and returns the parsed integer:
      ReferenceError: makeInt is not defined
       at Context.<anonymous> (test/index-test.js:34:5)
