@@ -15,8 +15,8 @@ function  divide(a, b) {
   a /= b;
 }
 
-  5)  inc(n) increments n 
-  returns the result;
+  inc(n) n++;
+  return n;
 
   6)  dec(n) decrements n and returns the result:
      ReferenceError: dec is not defined
