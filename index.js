@@ -15,9 +15,8 @@ function  divide(a, b) {
   a /= b;
 }
 
-  5)  inc(n) increments n and returns the result:
-     ReferenceError: inc is not defined
-      at Context.<anonymous> (test/index-test.js:25:3)
+  5)  inc(n) increments n 
+  returns the result;
 
   6)  dec(n) decrements n and returns the result:
      ReferenceError: dec is not defined
