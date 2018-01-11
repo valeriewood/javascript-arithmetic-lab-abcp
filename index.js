@@ -39,7 +39,8 @@ console.log(roughScale('321', 2));
   makeInt(n); 
   parseInt('n');
 
-preserveDecimal(n) preserves n's decimals (it parsesn as a floating point number) and 
+preserveDecimal(n);
+parseFloat('n');
 returns the parsed number:
      ReferenceError: preserveDecimal is not defined
       at Context.<anonymous> (test/index-test.js:48:5)
