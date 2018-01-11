@@ -1,20 +1,19 @@
 var a, b;
 
 function add(a, b) {
-  return (a + b);
+ a += b;
 }
 
 function subtract(a, b) {
-  return (a - b);
+  a -= b;
 }
 
 function multiply(a, b) {
-  return (a * b);
+  a *= b;
 }
-
-  4)  divide(a, b) divides a by b and returns the result:
-     ReferenceError: divide is not defined
-      at Context.<anonymous> (test/index-test.js:21:3)
+function  divide(a, b) {
+  a /= b;
+}
 
   5)  inc(n) increments n and returns the result:
      ReferenceError: inc is not defined
