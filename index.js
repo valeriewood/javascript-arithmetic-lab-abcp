@@ -2,13 +2,11 @@ var a, b;
 
 function add(a, b) {
   return (a + b);
-} 
-console.log(add);
+}
 
-})
-add(a, b) adds two numbers and returns the result:
-     ReferenceError: add is not defined
-      at Context.<anonymous> (test/index-test.js:9:3)
+function subtract(a, b) {
+  return (a - b);
+}
 
   2)  subtract(a, b) subtracts b from a and returns the result:
      ReferenceError: subtract is not defined
