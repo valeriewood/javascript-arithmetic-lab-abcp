@@ -17,7 +17,7 @@ function  divide(a, b) {
 
   function inc(n, base) {
     var parsed = parseInt(n, base);
-    if (isNaN(parsed)) { return 0 }
+    if (isNaN(parsed)) { return n }
   return parsed n++;
   }
   
@@ -26,12 +26,6 @@ function  divide(a, b) {
   if (isNaN(parsed)) { return 0 }
   return parsed * 100;
 }
-
-console.log(roughScale(' 0xF', 16));
-// expected output: 1500
-
-console.log(roughScale('321', 2));
-// expected output: 0
 
   dec(n);
   return n--;
