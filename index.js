@@ -2,7 +2,10 @@ var a, b;
 
 function add(a, b) {
 } 
-
+console.log(add);
+it('add(a, b) adds two numbers and returns the result', function() {
+  expect(add(a, b)).toEqual(a + b)
+})
 add(a, b) adds two numbers and returns the result:
      ReferenceError: add is not defined
       at Context.<anonymous> (test/index-test.js:9:3)
