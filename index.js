@@ -19,7 +19,7 @@ function  divide(a, b) {
     var parsed = parseInt(n, base);
     if (isNaN(parsed)) { return 0 }
   return parsed n++;
-  return n;
+  }
   
   function roughScale(x, base) {
   var parsed = parseInt(x, base);
