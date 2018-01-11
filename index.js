@@ -53,7 +53,5 @@ console.log(roughScale('321', 2));
      ReferenceError: preserveDecimal is not defined
       at Context.<anonymous> (test/index-test.js:48:5)
 
-  11) preserveDecimal(n) returns NaN as appropriate:
-     ReferenceError: preserveDecimal is not defined
-      at Context.<anonymous> (test/index-test.js:52:5)
-
+  preserveDecimal(n) 
+  return NaN;
